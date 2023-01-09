@@ -1,0 +1,52 @@
+#container {
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px;
+}
+/* li들 간격 넓히기 */
+
+input[type=text], input[type=email], input[type=tel]{
+    width: 300px;
+}
+
+#shipping li label {
+    width: 80px;
+    text-align: left;
+    float: left;
+}
+/* label 간격 맞춰주기 */
+
+p {
+    font-weight: bolder;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+input[type=number] {
+    width: 30px;
+    margin-left: 10px;
+}
+/* number칸 길이 */
+
+input[type=submit], input[type=reset] {
+    width: 150px;
+    height: 40px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+    text-align: center;
+}
+
+#button-area {
+    margin-top: 20px;
+    text-align: center;
+}

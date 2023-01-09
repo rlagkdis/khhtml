@@ -3,26 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <title>연습문제6</title>
-        <style>
-            div { border : 1px solid black;
-                padding : 20px 40px;}
-        </style>
+        <link rel="stylesheet" href="./css/practice6.css">
     </head>
     <body>
-        <div>
+        <div id="container">
             <h1>프론트엔드 개발자 지원서</h1>
             <p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
             <hr>
             <form action="">
                 <h4>개인정보</h4>
-                <ul>
+                <ul id="private-info">
                     <li>
-                        이름
-                        <input type="text" placeholder="공백없이 입력하세요">
+                        <label for="user-name">이름</label>
+                        <input type="text" id="user-name" placeholder="공백없이 입력하세요">
                     </li>
                     <li>
-                        연락처
-                        <input type="text">
+                        <label for="phone">연락처</label>
+                        <input type="text" id="phone">
                     </li>
                 </ul>
                 <h4>지원 분야</h4>
@@ -38,7 +35,7 @@
                     </li>
                 </ul>
                 <h4>지원동기</h4>
-                <textarea cols="80" rows="5" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+                <textarea cols="60" rows="5" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
                 <div>
                     <input type="submit" value="접수하기">
                     <input type="reset" value="다시쓰기">
