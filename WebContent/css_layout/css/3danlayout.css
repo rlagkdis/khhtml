@@ -1,0 +1,33 @@
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: beige;
+}
+#main {
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+}
+    #main_layer1 {
+        width: 20%;
+        height: inherit;
+        background-color: coral;
+        float: left;
+    }
+    #main_layer2 {
+        width: 60%;
+        height: inherit;
+        background-color: blueviolet;
+        float: left;
+    }
+    #main_layer3 {
+        width: 20%;
+        height: inherit;
+        background-color: blue;
+        float: left;
+    }
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}

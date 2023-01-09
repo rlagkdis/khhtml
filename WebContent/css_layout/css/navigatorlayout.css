@@ -1,0 +1,54 @@
+
+#header {
+    height: 50px;
+    width: 100%;
+}
+    #header-layer1 {
+        width: 25%;
+        height: inherit;
+        background-color: #cff0da;
+        float: left;
+    }
+    #header-layer2 {
+        width: 50%;
+        height: inherit;
+        background-color: #88dba3;
+        float: left;
+    }
+    #header-layer3 {
+        width: 25%;
+        height: inherit;
+        background-color: #dadbdb;
+        float: left;
+    }
+#nav {
+    height: 50px;
+    background-color: salmon;
+}
+#main {
+    height: 500px;
+    width: 100%;
+}
+    #main-layer1 {
+        width: 25%;
+        height: inherit;
+        background-color: #dadbdb;
+        float: left;
+    }
+    #main-layer2 {
+        width: 50%;
+        height: inherit;
+        background-color: #88dba3;
+        float: left;
+    }
+    #main-layer3 {
+        width: 25%;
+        height: inherit;
+        background-color: #cff0da;
+        float: left;
+    }
+
+#footer {
+    height: 100px;
+    background-color: lightgreen;
+}
